@@ -1,0 +1,22 @@
+
+.button {
+  margin-top: 20px;
+  width: 700px;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button p {
+  color: white;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 992px) {
+  .button {
+    background-color: blue;
+    width: 200px;
+  }
+}
